@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: rgb(234, 240, 240);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: -4px;
+    background-color: rgba(255, 255, 255, 0.934);
+    justify-content: space-evenly;
+}
+
+.logo img {
+    height: 92px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.search-bar input {
+    width: 360px;
+    border: none;
+    margin: 5px;
+    outline: none;
+    background-color: rgb(248, 243, 243);
+    font-size: larger;
+    font-family: 'Arial', sans-serif;
+    text-transform: capitalize;
+    height: 17px;
+}
+
+.search {
+    border-radius: 7px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+.search i {
+    color: darkgray;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.login {
+    display: flex;
+    cursor: pointer;
+}
+
+.login p {
+    margin: 5px;
+}
+
+.login i {
+    margin: 10px;
+}
+
+.notification i {
+    margin: -20px;
+    cursor: pointer;
+}
+
+.nav2 {
+    background-color: white;
+    margin-top: 12px;
+    display: flex;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.nav2 a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav2 img {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.nav3 img {
+    width: 97%;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.btn1 button,
+.btn2 button {
+    height: 80px;
+    width: 40px;
+    position: relative;
+    font-size: larger;
+    background-color: white;
+    border: none;
+}
+
+.nav4 {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.nav4 img {
+    height: auto;
+    width: 200px;
+    margin: 5px;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36, 35, 35);
+}
+
+.footer a {
+    position: relative;
+    top: 20px;
+    display: flex;
+    color: white;
+    font-weight: 700;
+}
+
+.footer p {
+    color: rgb(180, 174, 174);
+    position: relative;
+    top: 20px;
+    font-size: small;
+}
+
+/* Add media queries for responsiveness as needed */
